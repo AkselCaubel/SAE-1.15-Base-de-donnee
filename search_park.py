@@ -3,6 +3,7 @@ from time import sleep
 from math import sqrt
 import calcule as clc
 import scraping as scp
+import log as lg
 from datetime import datetime
 
 
@@ -86,7 +87,7 @@ def csv_file_writer_trie(id,csv_existe):
             content=import_xml(id[i])
             writer.writerow({'station_name': sort(content)[1], 'free_park_space': sort(content)[2], 'total_park_space': sort(content)[3],  'year': sort(content)[0][0:4],  'day&month': sort(content)[0][5:10],  'hour&min': sort(content)[0][11:16]})   # écrit dans le fichier csv
     time=str(datetime.now())
-    print(f"Une donnée a été enregisté dans le fichier stat_park.csv le {time[5:10]} à {time[11:16]} prochain relever prévu a {time[11:13]}:{str(int(time[14:16])+5)}")
+    lg.log_write(f"Une donnée a été enregisté dans le fichier stat_park.csv le {time[5:10]} à {time[11:16]} prochain relever prévu a {time[11:13]}:{str(int(time[14:16])+10)}")
 
 
 def csv_file_reader(file):

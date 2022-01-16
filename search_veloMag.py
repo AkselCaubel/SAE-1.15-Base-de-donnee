@@ -2,7 +2,7 @@ import csv
 from time import sleep
 from math import sqrt
 from datetime import datetime
-
+import log as lg
 
 
 
@@ -39,4 +39,4 @@ def csv_file_writer_trie(info_station,csv_existe):
         for i in range (len(info_station)):   # pour chaque id ( parking ) l'on écrit dans le fichier csv pour chaque catégorie leurs entrées
             writer.writerow({'station_name': info_station[i][0],'taken_vmag_space': info_station[i][1] , 'free_vmag_space': info_station[i][2], 'total_vmag_space': info_station[i][3],  'year': time[0:4],  'day&month': time[5:10],  'hour&min': time[11:16]})   # écrit dans le fichier csv
 
-    print(f"Une donnée a été enregisté dans le fichier stat_vmag.csv le {time[5:10]} à {time[11:16]} prochain relever prévu a {time[11:13]}:{str(int(time[14:16])+5)}")
+    lg.log_write(f"Une donnée a été enregisté dans le fichier stat_vmag.csv le {time[5:10]} à {time[11:16]} prochain relever prévu a {time[11:13]}:{str(int(time[14:16])+10)}")
