@@ -30,11 +30,15 @@ else :
 #print(vmag.writer(scp.web_content(id[24]),mode = "w"))
 # mettre en commentaire la boucle pour afficher la moyenne et l'écart type du relevé 
 
-
-while True:
+i=0
+while i<=2016:
     vmag.writer(scp.web_content(id[24]),"vmag","w",".xml")
     vmag.csv_file_writer_trie(scp.xml_vmag_trie("./station_file/vmag.xml"),csv_existe)
-    sleep(60*5)
+    park.csv_file_writer_trie(id[0:23],csv_existe)
+    
+
+    sleep(60*10)
+    i+=1
 
 print(park.moyenne_occupee('stat.csv'))
 print(park.ecart_type_occupee('stat.csv',park.moyenne_occupee('stat.csv')))

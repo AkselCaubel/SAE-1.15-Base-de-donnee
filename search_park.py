@@ -3,7 +3,8 @@ from time import sleep
 from math import sqrt
 import calcule as clc
 import scraping as scp
-import main as mn
+from datetime import datetime
+
 
 
 def finder(what,area): 
@@ -12,6 +13,7 @@ def finder(what,area):
 
     result = "" # initialisation du résultat de la recherche
     i = 0 # compteur
+
 
     while i<300: # recherche le motif 
                  #si il ne trouve aucun nom il s'arrête automatiquement après 300 bouclages 
@@ -30,9 +32,7 @@ def finder(what,area):
 
         i+=1                                # caractère suivant
 
-    if result == "":                        # condition de déboggage si la balise n'est pas trouvable
-        print(f"{what} la balise donner est introuvable ou vide") # aide a la compréhension
-
+    
     return result
 
 def sort(content):
@@ -40,13 +40,10 @@ def sort(content):
 
     time = finder("<DateTime>",content)            # Date de la mise à jour 
     name = finder("<Name>",content)                # Nom du parking
-    status = finder("<Status>",content)            # Statut du parking
     free = finder("<Free>",content)                # nombre de place libre
     total = finder("<Total>",content)              # nombre de place total du parking
-    display = finder("<DisplayOnpenIf>",content)   # diplay du parking 
-    reserve = finder("<Reserve>",content)          # reserve du parking 
 
-    return time, name, status, free, total, display, reserve
+    return time, name, free, total
     
 
 def writer(content):
@@ -74,21 +71,22 @@ def import_xml(id):
 def csv_file_writer_trie(id,csv_existe):
 
     """" écrit dans le fichier stat.csv les données xml de manière ordonée"""
-    global mn.csv_existe
+    #global csv_existe
 
     with open('stat_park.csv', 'a', newline='') as csvfile:      # ouvre un fichier CSV en écriture nommée stat.csv ou le crée si existe pas
         
         fieldnames = ['station_name', 'free_park_space','total_park_space','year','day&month','hour&min']     # donne les noms de chaque catégorie
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)                 # donne attirbut csv et les sépatateurs a la variable writer
 
-        if mn.csv_existe == False :    # Si le fichier csv est défini dans le main comme non existant ALORS
+        if csv_existe == False :    # Si le fichier csv est défini dans le main comme non existant ALORS
             writer.writeheader()    # On écrit le titre des catégories +
-            mn.csv_existe = True       # On défini dans le main le fichier comme existant 
+            csv_existe = True       # On défini dans le main le fichier comme existant 
 
         for i in range (len(id)):   # pour chaque id ( parking ) l'on écrit dans le fichier csv pour chaque catégorie leurs entrées
-            writer.writerow({'station_name': sort(import_xml(id[i]))[1], 'free_park_space': sort(import_xml(id[i]))[3], 'total_park_space': sort(import_xml(id[i]))[4],  'year': sort(import_xml(id[i]))[0][0:4],  'day&month': sort(import_xml(id[i]))[0][5:10],  'hour&min': sort(import_xml(id[i]))[0][11:16]})   # écrit dans le fichier csv
-
-    print("Une donnée a été dans le fichier stat.csv")
+            content=import_xml(id[i])
+            writer.writerow({'station_name': sort(content)[1], 'free_park_space': sort(content)[2], 'total_park_space': sort(content)[3],  'year': sort(content)[0][0:4],  'day&month': sort(content)[0][5:10],  'hour&min': sort(content)[0][11:16]})   # écrit dans le fichier csv
+    time=str(datetime.now())
+    print(f"Une donnée a été enregisté dans le fichier stat_park.csv le {time[5:10]} à {time[11:16]} prochain relever prévu a {time[11:13]}:{str(int(time[14:16])+5)}")
 
 
 def csv_file_reader(file):

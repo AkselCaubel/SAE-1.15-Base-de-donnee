@@ -3,6 +3,7 @@
 - faire un prog init.py pour pouvoir crée tout les élements donc le fichier main a besoin pour avoir besoin d'aucun changement pour marcher comme il faut même s'il est arrêté puis redémarrer 
   - création du dossier : station_file
   - création fichier stat.csv avec les catégories déjà définit
+  - faire un du multi-thread pour le parking et le vélo
 
 <br> <br>
 
