@@ -19,17 +19,3 @@ def ecart_type(liste):
         result += (liste[i] - moy)**2
     return round(sqrt(result/len(liste)),2)
 
-    """ Save """
-
-"""def ecart_type(data,moyenne):
-     calcule l'écart type des données et le renvois 
-
-    content = csv_file_reader(data)  # récupère le contenu de de data_file ( type = list )
-    result = 0                            # initialisation du résultat de la moyenne ( type = int )
-    compteur = 0                          # initialisation du compteur d'élément 
-    
-    for i in range (len(content)):                            # pour toute les rangées de content faire
-        result += (int(content[i][2]) - int(content[i][1]) - moyenne)**2     # result prend le nombre de place occupée
-        compteur += 1                                         # incrémentation du compteur
-        
-    return round(sqrt(result/compteur))"""

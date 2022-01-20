@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-16T19:37:53</DateTime>
+	<Name>VICA</Name>
+	<Status>Open</Status>
+	<Free>0084</Free>
+	<Total>0084</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-16T19:37:53</DateTime>
+	<Name>VICA</Name>
+	<Status>Open</Status>
+	<Free>0084</Free>
+	<Total>0084</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-16T19:37:53</DateTime>
+	<Name>VICA</Name>
+	<Status>Open</Status>
+	<Free>0084</Free>
+	<Total>0084</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-16T19:42:58</DateTime>
+	<Name>VICA</Name>
+	<Status>Open</Status>
+	<Free>0084</Free>
+	<Total>0084</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-16T19:42:58</DateTime>
+	<Name>VICA</Name>
+	<Status>Open</Status>
+	<Free>0084</Free>
+	<Total>0084</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-16T19:42:58</DateTime>
+	<Name>VICA</Name>
+	<Status>Open</Status>
+	<Free>0084</Free>
+	<Total>0084</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-16T19:42:58</DateTime>
+	<Name>VICA</Name>
+	<Status>Open</Status>
+	<Free>0084</Free>
+	<Total>0084</Total>
+</park>

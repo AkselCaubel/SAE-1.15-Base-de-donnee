@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-16T19:38:51</DateTime>
+	<Name>EURO</Name>
+	<Status>Open</Status>
+	<Free>0477</Free>
+	<Total>0580</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-16T19:38:51</DateTime>
+	<Name>EURO</Name>
+	<Status>Open</Status>
+	<Free>0477</Free>
+	<Total>0580</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-16T19:41:55</DateTime>
+	<Name>EURO</Name>
+	<Status>Open</Status>
+	<Free>0476</Free>
+	<Total>0580</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-16T19:41:55</DateTime>
+	<Name>EURO</Name>
+	<Status>Open</Status>
+	<Free>0476</Free>
+	<Total>0580</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-16T19:41:55</DateTime>
+	<Name>EURO</Name>
+	<Status>Open</Status>
+	<Free>0476</Free>
+	<Total>0580</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-16T19:44:58</DateTime>
+	<Name>EURO</Name>
+	<Status>Open</Status>
+	<Free>0476</Free>
+	<Total>0580</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-16T19:44:58</DateTime>
+	<Name>EURO</Name>
+	<Status>Open</Status>
+	<Free>0476</Free>
+	<Total>0580</Total>
+</park>

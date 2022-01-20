@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<park>
+<DateTime>2022-01-16T19:42:09.865</DateTime>
+<Name>Triangle</Name>
+<Status>Open</Status>
+<Free>295</Free>
+<Total>436</Total>
+<DisplayOpenIf>100</DisplayOpenIf>
+<Reserve></Reserve>
+</park>
+<?xml version="1.0" encoding="UTF-8" ?>
+<park>
+<DateTime>2022-01-16T19:44:09.879</DateTime>
+<Name>Triangle</Name>
+<Status>Open</Status>
+<Free>294</Free>
+<Total>436</Total>
+<DisplayOpenIf>100</DisplayOpenIf>
+<Reserve></Reserve>
+</park>
+<?xml version="1.0" encoding="UTF-8" ?>
+<park>
+<DateTime>2022-01-16T19:45:09.891</DateTime>
+<Name>Triangle</Name>
+<Status>Open</Status>
+<Free>294</Free>
+<Total>436</Total>
+<DisplayOpenIf>100</DisplayOpenIf>
+<Reserve></Reserve>
+</park>
+<?xml version="1.0" encoding="UTF-8" ?>
+<park>
+<DateTime>2022-01-16T19:46:09.924</DateTime>
+<Name>Triangle</Name>
+<Status>Open</Status>
+<Free>294</Free>
+<Total>436</Total>
+<DisplayOpenIf>100</DisplayOpenIf>
+<Reserve></Reserve>
+</park>
+<?xml version="1.0" encoding="UTF-8" ?>
+<park>
+<DateTime>2022-01-16T19:47:09.917</DateTime>
+<Name>Triangle</Name>
+<Status>Open</Status>
+<Free>294</Free>
+<Total>436</Total>
+<DisplayOpenIf>100</DisplayOpenIf>
+<Reserve></Reserve>
+</park>
+<?xml version="1.0" encoding="UTF-8" ?>
+<park>
+<DateTime>2022-01-16T19:48:09.918</DateTime>
+<Name>Triangle</Name>
+<Status>Open</Status>
+<Free>294</Free>
+<Total>436</Total>
+<DisplayOpenIf>100</DisplayOpenIf>
+<Reserve></Reserve>
+</park>
+<?xml version="1.0" encoding="UTF-8" ?>
+<park>
+<DateTime>2022-01-16T19:49:09.913</DateTime>
+<Name>Triangle</Name>
+<Status>Open</Status>
+<Free>294</Free>
+<Total>436</Total>
+<DisplayOpenIf>100</DisplayOpenIf>
+<Reserve></Reserve>
+</park>

@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-16T19:38:15</DateTime>
+	<Name>MOSS</Name>
+	<Status>Open</Status>
+	<Free>0234</Free>
+	<Total>0423</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-16T19:38:15</DateTime>
+	<Name>MOSS</Name>
+	<Status>Open</Status>
+	<Free>0234</Free>
+	<Total>0423</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-16T19:38:15</DateTime>
+	<Name>MOSS</Name>
+	<Status>Open</Status>
+	<Free>0234</Free>
+	<Total>0423</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-16T19:43:08</DateTime>
+	<Name>MOSS</Name>
+	<Status>Open</Status>
+	<Free>0234</Free>
+	<Total>0423</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-16T19:43:08</DateTime>
+	<Name>MOSS</Name>
+	<Status>Open</Status>
+	<Free>0234</Free>
+	<Total>0423</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-16T19:43:08</DateTime>
+	<Name>MOSS</Name>
+	<Status>Open</Status>
+	<Free>0234</Free>
+	<Total>0423</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-16T19:43:08</DateTime>
+	<Name>MOSS</Name>
+	<Status>Open</Status>
+	<Free>0234</Free>
+	<Total>0423</Total>
+</park>

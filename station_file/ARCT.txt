@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-16T19:34:59</DateTime>
+	<Name>ARCT</Name>
+	<Status>Open</Status>
+	<Free>0149</Free>
+	<Total>0450</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-16T19:39:58</DateTime>
+	<Name>ARCT</Name>
+	<Status>Open</Status>
+	<Free>0148</Free>
+	<Total>0450</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-16T19:39:58</DateTime>
+	<Name>ARCT</Name>
+	<Status>Open</Status>
+	<Free>0148</Free>
+	<Total>0450</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-16T19:39:58</DateTime>
+	<Name>ARCT</Name>
+	<Status>Open</Status>
+	<Free>0148</Free>
+	<Total>0450</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-16T19:39:58</DateTime>
+	<Name>ARCT</Name>
+	<Status>Open</Status>
+	<Free>0148</Free>
+	<Total>0450</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-16T19:44:57</DateTime>
+	<Name>ARCT</Name>
+	<Status>Open</Status>
+	<Free>0144</Free>
+	<Total>0450</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-16T19:44:57</DateTime>
+	<Name>ARCT</Name>
+	<Status>Open</Status>
+	<Free>0144</Free>
+	<Total>0450</Total>
+</park>

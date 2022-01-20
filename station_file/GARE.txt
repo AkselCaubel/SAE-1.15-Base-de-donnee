@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<park xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DateTime>2022-01-16T19:38:03</DateTime>
+  <Name>GARE</Name>
+  <Status>Open</Status>
+  <Free>382</Free>
+  <Total>656</Total>
+  <DisplayOpenIf>-1</DisplayOpenIf>
+</park><?xml version="1.0"?>
+<park xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DateTime>2022-01-16T19:40:05</DateTime>
+  <Name>GARE</Name>
+  <Status>Open</Status>
+  <Free>384</Free>
+  <Total>656</Total>
+  <DisplayOpenIf>-1</DisplayOpenIf>
+</park><?xml version="1.0"?>
+<park xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DateTime>2022-01-16T19:40:05</DateTime>
+  <Name>GARE</Name>
+  <Status>Open</Status>
+  <Free>384</Free>
+  <Total>656</Total>
+  <DisplayOpenIf>-1</DisplayOpenIf>
+</park><?xml version="1.0"?>
+<park xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DateTime>2022-01-16T19:42:03</DateTime>
+  <Name>GARE</Name>
+  <Status>Open</Status>
+  <Free>383</Free>
+  <Total>656</Total>
+  <DisplayOpenIf>-1</DisplayOpenIf>
+</park><?xml version="1.0"?>
+<park xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DateTime>2022-01-16T19:42:03</DateTime>
+  <Name>GARE</Name>
+  <Status>Open</Status>
+  <Free>383</Free>
+  <Total>656</Total>
+  <DisplayOpenIf>-1</DisplayOpenIf>
+</park><?xml version="1.0"?>
+<park xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DateTime>2022-01-16T19:44:03</DateTime>
+  <Name>GARE</Name>
+  <Status>Open</Status>
+  <Free>382</Free>
+  <Total>656</Total>
+  <DisplayOpenIf>-1</DisplayOpenIf>
+</park><?xml version="1.0"?>
+<park xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DateTime>2022-01-16T19:44:03</DateTime>
+  <Name>GARE</Name>
+  <Status>Open</Status>
+  <Free>382</Free>
+  <Total>656</Total>
+  <DisplayOpenIf>-1</DisplayOpenIf>
+</park>

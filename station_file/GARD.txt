@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-16T19:38:52</DateTime>
+	<Name>GARD</Name>
+	<Status>Open</Status>
+	<Free>0310</Free>
+	<Total>0395</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-16T19:38:52</DateTime>
+	<Name>GARD</Name>
+	<Status>Open</Status>
+	<Free>0310</Free>
+	<Total>0395</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-16T19:38:52</DateTime>
+	<Name>GARD</Name>
+	<Status>Open</Status>
+	<Free>0310</Free>
+	<Total>0395</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-16T19:38:52</DateTime>
+	<Name>GARD</Name>
+	<Status>Open</Status>
+	<Free>0310</Free>
+	<Total>0395</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-16T19:43:54</DateTime>
+	<Name>GARD</Name>
+	<Status>Open</Status>
+	<Free>0309</Free>
+	<Total>0395</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-16T19:43:54</DateTime>
+	<Name>GARD</Name>
+	<Status>Open</Status>
+	<Free>0309</Free>
+	<Total>0395</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-16T19:43:54</DateTime>
+	<Name>GARD</Name>
+	<Status>Open</Status>
+	<Free>0309</Free>
+	<Total>0395</Total>
+</park>

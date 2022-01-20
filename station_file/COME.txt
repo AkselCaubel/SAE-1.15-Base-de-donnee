@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-16T19:38:52</DateTime>
+	<Name>COME</Name>
+	<Status>Open</Status>
+	<Free>0447</Free>
+	<Total>0835</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-16T19:38:52</DateTime>
+	<Name>COME</Name>
+	<Status>Open</Status>
+	<Free>0447</Free>
+	<Total>0835</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-16T19:41:55</DateTime>
+	<Name>COME</Name>
+	<Status>Open</Status>
+	<Free>0451</Free>
+	<Total>0835</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-16T19:41:55</DateTime>
+	<Name>COME</Name>
+	<Status>Open</Status>
+	<Free>0451</Free>
+	<Total>0835</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-16T19:41:55</DateTime>
+	<Name>COME</Name>
+	<Status>Open</Status>
+	<Free>0451</Free>
+	<Total>0835</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-16T19:44:59</DateTime>
+	<Name>COME</Name>
+	<Status>Open</Status>
+	<Free>0444</Free>
+	<Total>0835</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-16T19:44:59</DateTime>
+	<Name>COME</Name>
+	<Status>Open</Status>
+	<Free>0444</Free>
+	<Total>0835</Total>
+</park>

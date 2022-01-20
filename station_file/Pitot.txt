@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<park>
+<DateTime>2022-01-16T19:37:09.832</DateTime>
+<Name>Pitot</Name>
+<Status>Open</Status>
+<Free>398</Free>
+<Total>588</Total>
+<DisplayOpenIf>100</DisplayOpenIf>
+<Reserve></Reserve>
+</park>
+<?xml version="1.0" encoding="UTF-8" ?>
+<park>
+<DateTime>2022-01-16T19:39:09.834</DateTime>
+<Name>Pitot</Name>
+<Status>Open</Status>
+<Free>398</Free>
+<Total>588</Total>
+<DisplayOpenIf>100</DisplayOpenIf>
+<Reserve></Reserve>
+</park>
+<?xml version="1.0" encoding="UTF-8" ?>
+<park>
+<DateTime>2022-01-16T19:40:09.826</DateTime>
+<Name>Pitot</Name>
+<Status>Open</Status>
+<Free>399</Free>
+<Total>588</Total>
+<DisplayOpenIf>100</DisplayOpenIf>
+<Reserve></Reserve>
+</park>
+<?xml version="1.0" encoding="UTF-8" ?>
+<park>
+<DateTime>2022-01-16T19:41:09.845</DateTime>
+<Name>Pitot</Name>
+<Status>Open</Status>
+<Free>399</Free>
+<Total>588</Total>
+<DisplayOpenIf>100</DisplayOpenIf>
+<Reserve></Reserve>
+</park>
+<?xml version="1.0" encoding="UTF-8" ?>
+<park>
+<DateTime>2022-01-16T19:42:09.843</DateTime>
+<Name>Pitot</Name>
+<Status>Open</Status>
+<Free>400</Free>
+<Total>588</Total>
+<DisplayOpenIf>100</DisplayOpenIf>
+<Reserve></Reserve>
+</park>
+<?xml version="1.0" encoding="UTF-8" ?>
+<park>
+<DateTime>2022-01-16T19:43:09.826</DateTime>
+<Name>Pitot</Name>
+<Status>Open</Status>
+<Free>400</Free>
+<Total>588</Total>
+<DisplayOpenIf>100</DisplayOpenIf>
+<Reserve></Reserve>
+</park>
+<?xml version="1.0" encoding="UTF-8" ?>
+<park>
+<DateTime>2022-01-16T19:44:09.853</DateTime>
+<Name>Pitot</Name>
+<Status>Open</Status>
+<Free>401</Free>
+<Total>588</Total>
+<DisplayOpenIf>100</DisplayOpenIf>
+<Reserve></Reserve>
+</park>

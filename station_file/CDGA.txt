@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-16T19:39:50</DateTime>
+	<Name>CDGA</Name>
+	<Status>Open</Status>
+	<Free>0107</Free>
+	<Total>0260</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-16T19:39:50</DateTime>
+	<Name>CDGA</Name>
+	<Status>Open</Status>
+	<Free>0107</Free>
+	<Total>0260</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-16T19:39:50</DateTime>
+	<Name>CDGA</Name>
+	<Status>Open</Status>
+	<Free>0107</Free>
+	<Total>0260</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-16T19:39:50</DateTime>
+	<Name>CDGA</Name>
+	<Status>Open</Status>
+	<Free>0107</Free>
+	<Total>0260</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-16T19:39:50</DateTime>
+	<Name>CDGA</Name>
+	<Status>Open</Status>
+	<Free>0107</Free>
+	<Total>0260</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-16T19:44:55</DateTime>
+	<Name>CDGA</Name>
+	<Status>Open</Status>
+	<Free>0107</Free>
+	<Total>0260</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-16T19:44:55</DateTime>
+	<Name>CDGA</Name>
+	<Status>Open</Status>
+	<Free>0107</Free>
+	<Total>0260</Total>
+</park>

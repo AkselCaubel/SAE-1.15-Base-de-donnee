@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-16T19:38:50</DateTime>
+	<Name>ARCE</Name>
+	<Status>Open</Status>
+	<Free>0207</Free>
+	<Total>0230</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-16T19:38:50</DateTime>
+	<Name>ARCE</Name>
+	<Status>Open</Status>
+	<Free>0207</Free>
+	<Total>0230</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-16T19:41:53</DateTime>
+	<Name>ARCE</Name>
+	<Status>Open</Status>
+	<Free>0207</Free>
+	<Total>0230</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-16T19:41:53</DateTime>
+	<Name>ARCE</Name>
+	<Status>Open</Status>
+	<Free>0207</Free>
+	<Total>0230</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-16T19:41:53</DateTime>
+	<Name>ARCE</Name>
+	<Status>Open</Status>
+	<Free>0207</Free>
+	<Total>0230</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-16T19:44:56</DateTime>
+	<Name>ARCE</Name>
+	<Status>Open</Status>
+	<Free>0207</Free>
+	<Total>0230</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-16T19:44:56</DateTime>
+	<Name>ARCE</Name>
+	<Status>Open</Status>
+	<Free>0207</Free>
+	<Total>0230</Total>
+</park>

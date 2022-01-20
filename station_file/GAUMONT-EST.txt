@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-16T19:36:26</DateTime>
+	<Name>GAUMONT-EST</Name>
+	<Status>Open</Status>
+	<Free>0096</Free>
+	<Total>0109</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-16T19:40:24</DateTime>
+	<Name>GAUMONT-EST</Name>
+	<Status>Open</Status>
+	<Free>0096</Free>
+	<Total>0109</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-16T19:41:27</DateTime>
+	<Name>GAUMONT-EST</Name>
+	<Status>Open</Status>
+	<Free>0096</Free>
+	<Total>0109</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-16T19:41:27</DateTime>
+	<Name>GAUMONT-EST</Name>
+	<Status>Open</Status>
+	<Free>0096</Free>
+	<Total>0109</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-16T19:41:27</DateTime>
+	<Name>GAUMONT-EST</Name>
+	<Status>Open</Status>
+	<Free>0096</Free>
+	<Total>0109</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-16T19:41:27</DateTime>
+	<Name>GAUMONT-EST</Name>
+	<Status>Open</Status>
+	<Free>0096</Free>
+	<Total>0109</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-16T19:45:15</DateTime>
+	<Name>GAUMONT-EST</Name>
+	<Status>Open</Status>
+	<Free>0096</Free>
+	<Total>0109</Total>
+</park>
