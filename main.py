@@ -1,16 +1,16 @@
-import search_park as park
-import search_veloMag as vmag
-import scraping as scp
 from time import sleep
 import threading as th 
 
+import search_park as park
+import search_veloMag as vmag
+import scraping as scp
 
 def VeloMag():
     vmag.writer(scp.web_content(id[24]),"vmag","w",".xml")
-    vmag.csv_file_writer_trie(scp.xml_vmag_trie("./station_file/vmag.xml"),csv_existe)
+    vmag.csv_file_writer_parse(scp.xml_vmag_parse("./station_file/vmag.xml"),csv_existe)
 
 def Parking():
-    park.csv_file_writer_trie(id[0:23],csv_existe)
+    park.csv_file_writer_parse(id[0:23],csv_existe)
 
 def existe_file():
     global csv_existe
@@ -29,7 +29,7 @@ id = ["FR_MTP_ANTI","FR_MTP_COME","FR_MTP_CORU","FR_MTP_EURO", # Identifiant de 
 
 
 
-th3 = th.Thread(target=existe_file)
+"""th3 = th.Thread(target=existe_file)
 
 i=0
 csv_existe = False
@@ -46,10 +46,10 @@ while i<=2016:
     th2.join()
 
     sleep(60*1)
-    i+=1
+    i+=1"""
 
-#print(park.moyenne_occupee('stat.csv'))
-#print(park.ecart_type_occupee('stat.csv',park.moyenne_occupee('stat.csv')))
+print(park.average_occupied('stat_park.csv'))
+print(park.standard_scratch_occupied('stat_park.csv',park.average_occupied('stat_park.csv')))
 
 
 

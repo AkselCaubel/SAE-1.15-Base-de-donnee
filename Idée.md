@@ -1,3 +1,5 @@
+
+
 # Idée
 
 - faire un prog init.py pour pouvoir crée tout les élements donc le fichier main a besoin pour avoir besoin d'aucun changement pour marcher comme il faut même s'il est arrêté puis redémarrer 

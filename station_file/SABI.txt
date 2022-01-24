@@ -54,3 +54,155 @@
 	<Free>0253</Free>
 	<Total>0485</Total>
 </park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-20T08:41:59</DateTime>
+	<Name>SABI</Name>
+	<Status>Open</Status>
+	<Free>0140</Free>
+	<Total>0485</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-20T08:41:59</DateTime>
+	<Name>SABI</Name>
+	<Status>Open</Status>
+	<Free>0140</Free>
+	<Total>0485</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-20T08:46:55</DateTime>
+	<Name>SABI</Name>
+	<Status>Open</Status>
+	<Free>0133</Free>
+	<Total>0485</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-20T08:46:55</DateTime>
+	<Name>SABI</Name>
+	<Status>Open</Status>
+	<Free>0133</Free>
+	<Total>0485</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-20T08:46:55</DateTime>
+	<Name>SABI</Name>
+	<Status>Open</Status>
+	<Free>0133</Free>
+	<Total>0485</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-20T08:46:55</DateTime>
+	<Name>SABI</Name>
+	<Status>Open</Status>
+	<Free>0133</Free>
+	<Total>0485</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-20T08:51:52</DateTime>
+	<Name>SABI</Name>
+	<Status>Open</Status>
+	<Free>0131</Free>
+	<Total>0485</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-20T08:51:52</DateTime>
+	<Name>SABI</Name>
+	<Status>Open</Status>
+	<Free>0131</Free>
+	<Total>0485</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-20T08:51:52</DateTime>
+	<Name>SABI</Name>
+	<Status>Open</Status>
+	<Free>0131</Free>
+	<Total>0485</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-20T08:56:58</DateTime>
+	<Name>SABI</Name>
+	<Status>Open</Status>
+	<Free>0127</Free>
+	<Total>0485</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-20T08:56:58</DateTime>
+	<Name>SABI</Name>
+	<Status>Open</Status>
+	<Free>0127</Free>
+	<Total>0485</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-20T08:56:58</DateTime>
+	<Name>SABI</Name>
+	<Status>Open</Status>
+	<Free>0127</Free>
+	<Total>0485</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-20T09:01:55</DateTime>
+	<Name>SABI</Name>
+	<Status>Open</Status>
+	<Free>0125</Free>
+	<Total>0485</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-20T09:01:55</DateTime>
+	<Name>SABI</Name>
+	<Status>Open</Status>
+	<Free>0125</Free>
+	<Total>0485</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-20T09:01:55</DateTime>
+	<Name>SABI</Name>
+	<Status>Open</Status>
+	<Free>0125</Free>
+	<Total>0485</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-20T09:01:55</DateTime>
+	<Name>SABI</Name>
+	<Status>Open</Status>
+	<Free>0125</Free>
+	<Total>0485</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-20T09:06:51</DateTime>
+	<Name>SABI</Name>
+	<Status>Open</Status>
+	<Free>0360</Free>
+	<Total>0485</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-20T09:06:51</DateTime>
+	<Name>SABI</Name>
+	<Status>Open</Status>
+	<Free>0360</Free>
+	<Total>0485</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-20T09:06:51</DateTime>
+	<Name>SABI</Name>
+	<Status>Open</Status>
+	<Free>0360</Free>
+	<Total>0485</Total>
+</park>

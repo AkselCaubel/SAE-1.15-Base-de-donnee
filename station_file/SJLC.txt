@@ -54,3 +54,155 @@
 	<Free>0213</Free>
 	<Total>0290</Total>
 </park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-20T08:44:51</DateTime>
+	<Name>SJLC</Name>
+	<Status>Open</Status>
+	<Free>0186</Free>
+	<Total>0290</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-20T08:44:51</DateTime>
+	<Name>SJLC</Name>
+	<Status>Open</Status>
+	<Free>0186</Free>
+	<Total>0290</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-20T08:44:51</DateTime>
+	<Name>SJLC</Name>
+	<Status>Open</Status>
+	<Free>0186</Free>
+	<Total>0290</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-20T08:44:51</DateTime>
+	<Name>SJLC</Name>
+	<Status>Open</Status>
+	<Free>0186</Free>
+	<Total>0290</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-20T08:49:56</DateTime>
+	<Name>SJLC</Name>
+	<Status>Open</Status>
+	<Free>0186</Free>
+	<Total>0290</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-20T08:49:56</DateTime>
+	<Name>SJLC</Name>
+	<Status>Open</Status>
+	<Free>0186</Free>
+	<Total>0290</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-20T08:49:56</DateTime>
+	<Name>SJLC</Name>
+	<Status>Open</Status>
+	<Free>0186</Free>
+	<Total>0290</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-20T08:49:56</DateTime>
+	<Name>SJLC</Name>
+	<Status>Open</Status>
+	<Free>0186</Free>
+	<Total>0290</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-20T08:54:49</DateTime>
+	<Name>SJLC</Name>
+	<Status>Open</Status>
+	<Free>0185</Free>
+	<Total>0290</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-20T08:54:49</DateTime>
+	<Name>SJLC</Name>
+	<Status>Open</Status>
+	<Free>0185</Free>
+	<Total>0290</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-20T08:59:54</DateTime>
+	<Name>SJLC</Name>
+	<Status>Open</Status>
+	<Free>0184</Free>
+	<Total>0290</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-20T08:59:54</DateTime>
+	<Name>SJLC</Name>
+	<Status>Open</Status>
+	<Free>0184</Free>
+	<Total>0290</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-20T08:59:54</DateTime>
+	<Name>SJLC</Name>
+	<Status>Open</Status>
+	<Free>0184</Free>
+	<Total>0290</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-20T08:59:54</DateTime>
+	<Name>SJLC</Name>
+	<Status>Open</Status>
+	<Free>0184</Free>
+	<Total>0290</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-20T09:04:58</DateTime>
+	<Name>SJLC</Name>
+	<Status>Open</Status>
+	<Free>0183</Free>
+	<Total>0290</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-20T09:04:58</DateTime>
+	<Name>SJLC</Name>
+	<Status>Open</Status>
+	<Free>0183</Free>
+	<Total>0290</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-20T09:04:58</DateTime>
+	<Name>SJLC</Name>
+	<Status>Open</Status>
+	<Free>0183</Free>
+	<Total>0290</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-20T09:04:58</DateTime>
+	<Name>SJLC</Name>
+	<Status>Open</Status>
+	<Free>0183</Free>
+	<Total>0290</Total>
+</park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-20T09:09:53</DateTime>
+	<Name>SJLC</Name>
+	<Status>Open</Status>
+	<Free>0182</Free>
+	<Total>0290</Total>
+</park>

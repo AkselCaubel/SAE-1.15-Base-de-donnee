@@ -1,21 +1,3 @@
-from time import sleep
-import threading as th
+import search_veloMag as vmag
 
-def process_one():
-    for i in range (3):
-        print("OOOOOOOOOOOOO")
-        sleep(0.3)
-
-
-def process_two():
-    for i in range (3):
-        print("OOOOOOOOOOOOO")
-        sleep(0.3)
-
-th1 = th.Thread(target=process_one)
-th2 = th.Thread(target=process_two)
-
-th1.start()
-th2.start()
-
-print("Fin du programme")
+print(len(vmag.csv_file_reader_per_month_and_day_by_hour("stat_vmag.csv","01-16")[10]))

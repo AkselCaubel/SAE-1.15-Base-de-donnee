@@ -8,24 +8,23 @@ from lxml import etree
 
 def web_content(id):
 
-    """ renvois le contenu de la page rechercher a partir de l'ip du parking rechercher """
+    """ renvois le contenu de la page recherchée a partir de l'ip du parking rechercher """
 
-    base_url = "https://data.montpellier3m.fr/sites/default/files/ressources/" # partie de l'url qui ne change pas selon le parking
-    extention_url = ".xml" # extension des fichiers d'information
-    url = base_url+id+extention_url # rassemblement de l'url complete en fonction de du parking rechercher
+    base_url = "https://data.montpellier3m.fr/sites/default/files/ressources/" 
+    extention_url = ".xml" 
+    url = base_url+id+extention_url # rassemblement de l'url complete en fonction du parking recherché
     
     
-    r = requests.get(url) # de la page internet
-    content = r.text # contenu de la page
+    r = requests.get(url) 
+    content = r.text 
 
     return content
 
 
-def xml_vmag_trie(xml_path_file):
+def xml_vmag_parse(xml_path_file):
     """ fonction qui parse le xml"""
     
-    result = [] # initialisation de la variable de retour
-    #xml_path_file=str
+    result = []
 
     tree = etree.parse(xml_path_file) # on initialise l'arboressence du fichier
     

@@ -1,10 +1,12 @@
 import csv
 from time import sleep
 from math import sqrt
+from datetime import datetime
+
 import calcule as clc
 import scraping as scp
 import log as lg
-from datetime import datetime
+
 
 
 
@@ -12,7 +14,7 @@ def finder(what,area):
     """ Recherche et retourne l'élément a l'intérieur la balise donné (what). Il a aussi besoin de la zone de recherche(area)
         Si jamais la balise n'est pas trouver, elle est afficher dans notre terminal"""
 
-    result = "" # initialisation du résultat de la recherche
+    result = "" 
     i = 0 # compteur
 
 
@@ -31,7 +33,7 @@ def finder(what,area):
 
             break                           # Travail fini j'arrête la boucle
 
-        i+=1                                # caractère suivant
+        i+=1                                
 
     
     return result
@@ -69,7 +71,7 @@ def import_xml(id):
 
     return xml
     
-def csv_file_writer_trie(id,csv_existe):
+def csv_file_writer_parse(id,csv_existe):
 
     """" écrit dans le fichier stat.csv les données xml de manière ordonée"""
     #global csv_existe
@@ -104,7 +106,7 @@ def csv_file_reader(file):
     
     return result # type(list)
 
-def moyenne_occupee(data_file):
+def average_occupied(data_file):
     """ calcule et renvois la moyenne des places prise depuis le fichier donnée """
 
     content = csv_file_reader(data_file)  # récupère le contenu de de data_file ( type = list )
@@ -115,18 +117,18 @@ def moyenne_occupee(data_file):
 
         liste.append( int(content[i][2]) - int(content[i][1]) )     # on ajoute nombre de place occupée pour chaque relevé a la liste
 
-    return clc.moyenne(liste)                                # renvois l'arrondis de la moyenne (type (int))
+    return clc.average(liste)                                # renvois l'arrondis de la moyenne (type (int))
 
 
-def ecart_type_occupee(data,moyenne):
+def standard_scratch_occupied(data,moyenne):
     """ calcule l'écart type des données et le renvois """
     
     content = csv_file_reader(data)  # récupère le contenu de de data_file ( type = list )
     liste=[]
 
-    for i in range (len(content)):                           # pour toute les rangées de content faire
+    for i in range (len(content)):                           
 
         liste.append( int(content[i][2]) - int(content[i][1]) )     # on ajoute nombre de place occupée pour chaque relevé a la liste
         
-    return clc.ecart_type(liste)
+    return clc.standard_scratch(liste)
 

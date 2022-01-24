@@ -113,6 +113,8 @@ chaque nom en gras est comptenu dans une balise ( pouvant donc permettre de cher
 
 <br>
 
+# Stripping
+
 # Librairies python a chercher :
 
 -   **requests**
