@@ -214,3 +214,11 @@
 	<Free>0229</Free>
 	<Total>0540</Total>
 </park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-24T16:59:58</DateTime>
+	<Name>FOCH</Name>
+	<Status>Open</Status>
+	<Free>0199</Free>
+	<Total>0540</Total>
+</park>

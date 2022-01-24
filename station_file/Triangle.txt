@@ -258,3 +258,13 @@
 <DisplayOpenIf>100</DisplayOpenIf>
 <Reserve></Reserve>
 </park>
+<?xml version="1.0" encoding="UTF-8" ?>
+<park>
+<DateTime>2022-01-24T17:04:10.019</DateTime>
+<Name>Triangle</Name>
+<Status>Open</Status>
+<Free>171</Free>
+<Total>436</Total>
+<DisplayOpenIf>100</DisplayOpenIf>
+<Reserve></Reserve>
+</park>

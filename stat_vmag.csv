@@ -1594,4 +1594,61 @@ station_name,taken_vmag_space,free_vmag_space,total_vmag_space,year,day&month,ho
 055 Pï¿½rols Etang de l'Or,25,43,68,2022,01-20,09:11
 056 Albert 1er - Cathï¿½drale,1,11,12,2022,01-20,09:11
 057 Saint-Guilhem - Courreau,5,3,8,2022,01-20,09:11
-059 Sud De France,0,8,8,2022,01-20,09:11
+059 Sud De France,0,8,8,2022,01-20,09:11station_name,taken_vmag_space,free_vmag_space,total_vmag_space,year,day&month,hour&min
+001 Rue Jules Ferry - Gare Saint-Roch,2,10,12,2022,01-24,17:05
+002 Comédie,22,2,24,2022,01-24,17:05
+003 Esplanade,16,16,32,2022,01-24,17:05
+004 Hôtel de Ville,2,14,16,2022,01-24,17:05
+005 Corum,6,6,12,2022,01-24,17:05
+006 Place Albert 1er - St Charles,20,11,31,2022,01-24,17:05
+007 Foch,1,7,8,2022,01-24,17:05
+008 Halles Castellane,1,11,12,2022,01-24,17:05
+009 Observatoire,3,5,8,2022,01-24,17:05
+010 Rondelet,4,12,16,2022,01-24,17:05
+011 Plan Cabanes,3,9,12,2022,01-24,17:05
+012 Boutonnet,3,9,12,2022,01-24,17:05
+013 Emile Combes,1,7,8,2022,01-24,17:05
+014 Beaux-Arts,6,2,8,2022,01-24,17:05
+015 Les Aubes,8,0,8,2022,01-24,17:05
+016 Antigone centre,16,0,16,2022,01-24,17:05
+017 Médiathèque Emile Zola,11,5,16,2022,01-24,17:05
+018 Nombre d'Or,7,9,16,2022,01-24,17:05
+019 Louis Blanc,6,10,16,2022,01-24,17:05
+020 Gambetta,3,5,8,2022,01-24,17:05
+021 Port Marianne,10,6,16,2022,01-24,17:05
+022 Clemenceau,3,9,12,2022,01-24,17:05
+023 Les Arceaux,2,14,16,2022,01-24,17:05
+024 Cité Mion,8,0,8,2022,01-24,17:05
+025 Nouveau Saint-Roch,2,6,8,2022,01-24,17:05
+026 Renouvier,3,5,8,2022,01-24,17:05
+027 Odysseum,4,4,8,2022,01-24,17:05
+028 Saint-Denis,5,3,8,2022,01-24,17:05
+029 Richter,15,1,16,2022,01-24,17:05
+030 Charles Flahault,0,8,8,2022,01-24,17:05
+031 Voltaire,7,1,8,2022,01-24,17:05
+032 Prés d'Arènes,5,3,8,2022,01-24,17:05
+033 Garcia Lorca,8,0,8,2022,01-24,17:05
+034 Vert Bois,0,16,16,2022,01-24,17:05
+035 Malbosc,2,6,8,2022,01-24,17:05
+036 Occitanie,3,29,32,2022,01-24,17:05
+037 FacdesSciences,5,19,24,2022,01-24,17:05
+038 Fac de Lettres,4,12,16,2022,01-24,17:05
+039 Aiguelongue,2,6,8,2022,01-24,17:05
+040 Jeu de Mail des Abbés,1,7,8,2022,01-24,17:05
+041 Euromédecine,1,7,8,2022,01-24,17:05
+042 Marie Caizergues,3,5,8,2022,01-24,17:05
+043 Sabines,4,4,8,2022,01-24,17:05
+044 Celleneuve,1,7,8,2022,01-24,17:05
+045 Jardin de la Lironde,3,5,8,2022,01-24,17:05
+046 Père Soulas,7,1,8,2022,01-24,17:05
+047 Place Viala,3,5,8,2022,01-24,17:05
+048 Hôtel du Département,1,7,8,2022,01-24,17:05
+049 Tonnelles,1,7,8,2022,01-24,17:05
+050 Parvis Jules Ferry - Gare Saint-Roch,0,8,8,2022,01-24,17:05
+051 Pont de Lattes - Gare Saint-Roch,0,12,12,2022,01-24,17:05
+053 Deux Ponts - Gare Saint-Roch,1,7,8,2022,01-24,17:05
+054 Providence - Ovalie,1,7,8,2022,01-24,17:05
+055 Pérols Etang de l'Or,23,45,68,2022,01-24,17:05
+056 Albert 1er - Cathédrale,8,4,12,2022,01-24,17:05
+057 Saint-Guilhem - Courreau,2,6,8,2022,01-24,17:05
+059 Sud De France,0,8,8,2022,01-24,17:05

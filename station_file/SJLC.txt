@@ -206,3 +206,11 @@
 	<Free>0182</Free>
 	<Total>0290</Total>
 </park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-24T16:59:57</DateTime>
+	<Name>SJLC</Name>
+	<Status>Open</Status>
+	<Free>0175</Free>
+	<Total>0290</Total>
+</park>

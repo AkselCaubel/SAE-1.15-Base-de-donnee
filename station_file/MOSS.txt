@@ -206,3 +206,11 @@
 	<Free>0072</Free>
 	<Total>0423</Total>
 </park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-24T17:03:10</DateTime>
+	<Name>MOSS</Name>
+	<Status>Open</Status>
+	<Free>0273</Free>
+	<Total>0423</Total>
+</park>

@@ -206,3 +206,11 @@
 	<Free>0235</Free>
 	<Total>0395</Total>
 </park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-24T17:03:55</DateTime>
+	<Name>GARD</Name>
+	<Status>Open</Status>
+	<Free>0256</Free>
+	<Total>0395</Total>
+</park>

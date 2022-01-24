@@ -214,3 +214,11 @@
 	<Free>0498</Free>
 	<Total>0835</Total>
 </park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-24T17:02:55</DateTime>
+	<Name>COME</Name>
+	<Status>Open</Status>
+	<Free>0402</Free>
+	<Total>0835</Total>
+</park>

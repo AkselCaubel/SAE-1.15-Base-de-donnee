@@ -198,3 +198,11 @@
 	<Free>0044</Free>
 	<Total>0074</Total>
 </park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-24T17:02:58</DateTime>
+	<Name>VICA</Name>
+	<Status>Open</Status>
+	<Free>0024</Free>
+	<Total>0074</Total>
+</park>

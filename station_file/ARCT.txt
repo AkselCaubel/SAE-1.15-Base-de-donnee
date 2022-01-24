@@ -206,3 +206,11 @@
 	<Free>0109</Free>
 	<Total>0450</Total>
 </park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-24T16:59:59</DateTime>
+	<Name>ARCT</Name>
+	<Status>Open</Status>
+	<Free>0132</Free>
+	<Total>0460</Total>
+</park>

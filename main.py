@@ -29,7 +29,7 @@ id = ["FR_MTP_ANTI","FR_MTP_COME","FR_MTP_CORU","FR_MTP_EURO", # Identifiant de 
 
 
 
-"""th3 = th.Thread(target=existe_file)
+th3 = th.Thread(target=existe_file)
 
 i=0
 csv_existe = False
@@ -46,10 +46,10 @@ while i<=2016:
     th2.join()
 
     sleep(60*1)
-    i+=1"""
+    i+=1
 
-print(park.average_occupied('stat_park.csv'))
-print(park.standard_scratch_occupied('stat_park.csv',park.average_occupied('stat_park.csv')))
+#print(park.average_occupied('stat_park.csv'))
+#print(park.standard_scratch_occupied('stat_park.csv',park.average_occupied('stat_park.csv')))
 
 
 

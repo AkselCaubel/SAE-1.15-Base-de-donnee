@@ -206,3 +206,11 @@
 	<Free>0360</Free>
 	<Total>0485</Total>
 </park>
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-01-24T17:01:52</DateTime>
+	<Name>SABI</Name>
+	<Status>Open</Status>
+	<Free>0310</Free>
+	<Total>0485</Total>
+</park>

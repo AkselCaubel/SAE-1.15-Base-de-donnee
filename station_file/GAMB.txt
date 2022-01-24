@@ -214,3 +214,11 @@
 	<Free>0121</Free>
 	<Total>0470</Total>
 </park>
+<?xml version='1.0' encoding='UTF-8'?>
+<park>
+	<DateTime>2022-01-24T17:02:54</DateTime>
+	<Name>GAMB</Name>
+	<Status>Open</Status>
+	<Free>0135</Free>
+	<Total>0470</Total>
+</park>
