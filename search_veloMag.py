@@ -43,49 +43,57 @@ def csv_file_writer_parse(info_station,csv_existe):
 
     lg.log_write(f"Une donnée a été enregisté dans le fichier stat_vmag.csv le {time[5:10]} à {time[11:16]} prochain relever prévu a {time[11:13]}:{str(int(time[14:16])+10)}")
 
-def csv_file_reader_per_month_and_day_by_hour(file,day):
 
-    """Fonction lisant un fichier csv ( file ) et retourne sous forme de liste tous les élément du fichier"""
 
-    result = [] # ( type list )
-    liste_tmp = []
-    with open(file, newline='') as csvfile:   # ouvre un fichier 
-        reader = csv.DictReader(csvfile)      
+def csv_file_reader_per_month_and_day_by_hour(file,day,index=['free_vmag_space','total_vmag_space']):
+
+    result = []
+    hour_list = []
+    hour = "00"
     
-        tmp_hour = "00"
 
-        
-        for row in reader:
+    with open(file, newline='') as csvfile:   
+        reader = csv.DictReader(csvfile) 
 
-            print(tmp_hour,row['hour&min'][0:2])
-            if day == row['day&month']:
+        i = 0
+        for row in reader :
             
-                if tmp_hour == row['hour&min'][0:2]:
-                    print("yes")
-                    liste_tmp.append([row['station_name'],row['free_vmag_space'],row['total_vmag_space']])
+            if row['day&month']=='':
+
+                continue
+
+
+            if day == row['day&month'] :
+                
+                if hour == row['hour&min'][0:2] :
+                    
+                    hour_list.append( [row [index[0] ], row[ index[1]],row['day&month'],row['hour&min'] ])
 
                 else:
+                    hour = str( int(hour)+1 )
 
-                    result.append(deepcopy(liste_tmp))
-                    liste_tmp = []
+                    if len(hour) == 1:
+                        hour = "0" + hour 
 
-                    if len(str(int(tmp_hour)+ 1)) == 1:
-                        tmp_hour = tmp_hour[0:1]+str(int(tmp_hour[1:])+1)
+                    result.append(deepcopy(hour_list))
+                    hour_list = []
 
-                    else:
-                        tmp_hour=str(int(tmp_hour)+1)
 
-        return result
+            elif (int(day[3:])+1) == int(row['day&month'][3:]) or  row['day&month'][3:] == "00":
+                result.append(deepcopy(hour_list))
+                hour_list = [row [index[0] ], row[ index[1] ]]
+                return result
 
-    """        ###################
-            print(row['hour&min'][0:2])
+            
+            
 
-            if row['hour&min'][0:2] == tmp_hour :
-                result.append([row['station_name'],row['free_vmag_space'],row['total_vmag_space']])
-            else:
-                if len(str(int(tmp_hour)+ 1)) == 1:
-                    tmp_hour = tmp_hour[0:1]+str(int(tmp_hour[1:])+1)
-                else:
-                    tmp_hour=str(int(tmp_hour)+1)
+def average_occupied(liste):
 
-    return result # type(list)"""
+    taken_space = []
+
+    for i in range(len(liste)):
+
+        taken_space.append((int(liste[1])-int(liste[0]))/int(liste[1]))
+
+    #print(taken_space)
+    return taken_space

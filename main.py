@@ -10,7 +10,7 @@ def VeloMag():
     vmag.csv_file_writer_parse(scp.xml_vmag_parse("./station_file/vmag.xml"),csv_existe)
 
 def Parking():
-    park.csv_file_writer_parse(id[0:23],csv_existe)
+    park.csv_file_writer_parse(id[0:24],csv_existe)
 
 def existe_file():
     global csv_existe
@@ -29,10 +29,10 @@ id = ["FR_MTP_ANTI","FR_MTP_COME","FR_MTP_CORU","FR_MTP_EURO", # Identifiant de 
 
 
 
-th3 = th.Thread(target=existe_file)
+"""th3 = th.Thread(target=existe_file)
 
 i=0
-csv_existe = False
+csv_existe = True
 th3.start()
 
 while i<=2016:
@@ -45,11 +45,12 @@ while i<=2016:
     th1.join()
     th2.join()
 
-    sleep(60*1)
+    sleep(60*10)
     i+=1
+    
+"""
 
-#print(park.average_occupied('stat_park.csv'))
-#print(park.standard_scratch_occupied('stat_park.csv',park.average_occupied('stat_park.csv')))
-
+print(park.average_occupied('stat_park.csv'))
+print(park.standard_scratch_occupied('stat_park.csv',park.average_occupied('stat_park.csv')))
 
 

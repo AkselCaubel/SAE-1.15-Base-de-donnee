@@ -28,8 +28,7 @@ def finder(what,area):
 
             while area[i] != "<":           # tant que l'on est pas arrivé a la balise de fin
 
-                result += area[i]           # on ajoute le caractère d'indice [i] au résultat
-                i+=1                        # caractère suivant
+                result += area[i]           
 
             break                           # Travail fini j'arrête la boucle
 
@@ -106,29 +105,29 @@ def csv_file_reader(file):
     
     return result # type(list)
 
-def average_occupied(data_file):
+def average_occupied(content):
     """ calcule et renvois la moyenne des places prise depuis le fichier donnée """
 
-    content = csv_file_reader(data_file)  # récupère le contenu de de data_file ( type = list )
+    """content = csv_file_reader(data_file)"""  # récupère le contenu de de data_file ( type = list )
     liste = []                            # initialisation du résultat de la moyenne ( type = int )
 
     
     for i in range (len(content)):                           # pour toute les rangées de content faire
-
-        liste.append( int(content[i][2]) - int(content[i][1]) )     # on ajoute nombre de place occupée pour chaque relevé a la liste
+        
+        liste.append((int(content[i][1])-int(content[i][0]))/int(content[i][1]))     # on ajoute nombre de place occupée pour chaque relevé a la liste
 
     return clc.average(liste)                                # renvois l'arrondis de la moyenne (type (int))
 
 
-def standard_scratch_occupied(data,moyenne):
+def standard_scratch_occupied(content):
     """ calcule l'écart type des données et le renvois """
     
-    content = csv_file_reader(data)  # récupère le contenu de de data_file ( type = list )
+    """content = csv_file_reader(data)  # récupère le contenu de de data_file ( type = list )"""
     liste=[]
 
     for i in range (len(content)):                           
 
-        liste.append( int(content[i][2]) - int(content[i][1]) )     # on ajoute nombre de place occupée pour chaque relevé a la liste
+        liste.append(( int(content[i][1]) - int(content[i][0]))/int(content[i][1]) )     # on ajoute nombre de place occupée pour chaque relevé a la liste
         
     return clc.standard_scratch(liste)
 

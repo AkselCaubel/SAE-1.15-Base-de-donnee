@@ -53,3 +53,5 @@ Une donnée a été enregisté dans le fichier stat_vmag.csv le 01-20 à 09:11 p
 Une donnée a été enregisté dans le fichier stat_park.csv le 01-20 à 09:11 prochain relever prévu a 09:21
 Une donnée a été enregisté dans le fichier stat_vmag.csv le 01-24 à 17:05 prochain relever prévu a 17:15
 Une donnée a été enregisté dans le fichier stat_park.csv le 01-24 à 17:05 prochain relever prévu a 17:15
+Une donnée a été enregisté dans le fichier stat_vmag.csv le 01-25 à 14:04 prochain relever prévu a 14:14
+Une donnée a été enregisté dans le fichier stat_park.csv le 01-25 à 14:04 prochain relever prévu a 14:14
