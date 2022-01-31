@@ -1,7 +1,8 @@
 
 import csv
 from copy import deepcopy # fonction de copie profonde
-from numpy import cov # Fonction permettant de calculer la covariance.
+from math import sqrt
+
 
 # Module personnel 
 import calcule as clc
@@ -9,7 +10,7 @@ import calcule as clc
 def csv_file_reader_per_month_and_day_by_hour(file,day,index=['free_vmag_space','total_vmag_space']):
 
     """Fonction permettant de donner sous forme de matrice le jour avec les informations par heure.
-    Prends comme argument le fichier, le jour de recherche, ainsi que les noms des catégories recherchées"""
+    Prends comme argument le fichier, le jour de recherche, ainsi que les noms des catégories recherche"""
 
     result = [] # type = list | elle sert de matrice
     hour_list = [] # type = list
@@ -167,7 +168,37 @@ def dat_file():
 
     return liste_park, liste_vmag
 
+def correlation(liste_somme_placeoccup_voiture,liste_somme_placeoccup_velo):
+    """ fonction qui calcule la corrélation entre les parkings et les Vmag"""
 
+    moy_liste_voiture = sum(liste_somme_placeoccup_voiture)/len(liste_somme_placeoccup_voiture)
+    moy_liste_velo=sum(liste_somme_placeoccup_velo)/len(liste_somme_placeoccup_velo)
+    nombre_delement=len(liste_somme_placeoccup_voiture) #j'aurai pu prendre velo c'est la même chose
+    somme_cov=0
+    somme_varx=0
+    somme_vary=0
+    element=1/nombre_delement
+    for i in range(nombre_delement):
+        cov_voiture=liste_somme_placeoccup_voiture[i]-moy_liste_voiture
+        cov_velo=liste_somme_placeoccup_velo[i]-moy_liste_velo
+        multi=cov_voiture*cov_velo
+        somme_cov=somme_cov+multi
+    covxy=element*somme_cov #je calcule la covariance des vélos avec les voitures
+    
+    for i in range(nombre_delement):
+        var=(liste_somme_placeoccup_voiture[i]-moy_liste_voiture)**2
+        somme_varx=somme_varx+var
+    varx=element*somme_varx #je calcule la variance des voitures
+    
+    for i in range(nombre_delement):
+        var=(liste_somme_placeoccup_velo[i]-moy_liste_velo)**2
+        somme_vary=somme_vary+var
+    vary=element*somme_vary #je calcule la variance des vélos
+    
+    multi_var=varx*vary
+    racine_var=sqrt(multi_var)
+    coefficient_correlation=covxy/racine_var #Formule du coefficient de correlation
+    print(f' le coefficient de correlation est : {coefficient_correlation}')
 
 
 """ Ici vous retrouverez les appels des différentes fonction permettant de sortir les données. Pour les utilisez il suffit d'enlever les '#' """
@@ -176,6 +207,4 @@ def dat_file():
 
 donnee_corelation = dat_file()
 
-print(cov(donnee_corelation[0],donnee_corelation[1])[0][1])
-
-print (donnee_corelation)
+correlation(donnee_corelation[0],donnee_corelation[1])
