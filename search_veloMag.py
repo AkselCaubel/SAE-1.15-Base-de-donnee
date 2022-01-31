@@ -1,9 +1,7 @@
 import csv
-from time import sleep
-from math import sqrt
 from datetime import datetime
-from copy import deepcopy
 
+#module personnel
 import log as lg
 
 
@@ -13,9 +11,9 @@ def writer(content,station_name="vmag",mode="w",extension=".txt"):
     """ Met le contenu de la page dans un fichier txt au nom de la station ( si pas de fichier : il le crée )"""
 
 
-    file_name = "./station_file/"+station_name+extension # trouve le nom de la station puis rajoute l'extention .txt pour le fichier 
+    file_name = "./station_file/"+station_name+extension # trouve le nom de la station puis rajoute l'extension .txt pour le fichier 
 
-    fichier = open(file_name,mode,encoding='utf8') # ouvre le fichier en mode écriture ( si inexistant : création file )
+    fichier = open(file_name,mode,encoding='utf8') # ouvre le fichier en mode écriture ( si inexistant : création fichier )
 
     fichier.write(content)                           # écrit dans le fichier le contenu de la page web
 
@@ -24,76 +22,25 @@ def writer(content,station_name="vmag",mode="w",extension=".txt"):
 
 
 def csv_file_writer_parse(info_station,csv_existe):
-    #global csv_existe
+    
     """" écrit dans le fichier stat_vmag.csv les données xml de manière ordonée"""
 
-    time = str(datetime.now())
+    time = str(datetime.now()) # récupère la date du jour
 
-    with open('stat_vmag.csv', 'a', newline='') as csvfile:      # ouvre un fichier CSV en écriture nommée stat.csv ou le crée si existe pas
+    with open('stat_vmag.csv', 'a', newline='') as csvfile:      # ouvre un fichier CSV en écriture nommée stat_vmag.csv où le crée si existe pas
         
         fieldnames = ['station_name', 'taken_vmag_space','free_vmag_space','total_vmag_space','year','day&month','hour&min']     # donne les noms de chaque catégorie
-        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)                 # donne attirbut csv et les sépatateurs a la variable writer
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)    # donne les attirbuts csv et les sépatateurs à la variable writer
 
         if csv_existe == False :    # Si le fichier csv est défini dans le main comme non existant ALORS
-            writer.writeheader()    # On écrit le titre des catégories +
-            csv_existe = True       # On défini dans le main le fichier comme existant 
+            writer.writeheader()    # On écrit le titre des catégories 
+            csv_existe = True       
 
         for i in range (len(info_station)):   # pour chaque id ( parking ) l'on écrit dans le fichier csv pour chaque catégorie leurs entrées
-            writer.writerow({'station_name': info_station[i][0],'taken_vmag_space': info_station[i][1] , 'free_vmag_space': info_station[i][2], 'total_vmag_space': info_station[i][3],  'year': time[0:4],  'day&month': time[5:10],  'hour&min': time[11:16]})   # écrit dans le fichier csv
+            writer.writerow({'station_name': info_station[i][0],'taken_vmag_space': info_station[i][1] , 'free_vmag_space': info_station[i][2], 'total_vmag_space': info_station[i][3],  'year': time[0:4],  'day&month': time[5:10],  'hour&min': time[11:16]})   # écrit la ligne dans le fichier csv
 
-    lg.log_write(f"Une donnée a été enregisté dans le fichier stat_vmag.csv le {time[5:10]} à {time[11:16]} prochain relever prévu a {time[11:13]}:{str(int(time[14:16])+10)}")
-
-
-
-def csv_file_reader_per_month_and_day_by_hour(file,day,index=['free_vmag_space','total_vmag_space']):
-
-    result = []
-    hour_list = []
-    hour = "00"
-    
-
-    with open(file, newline='') as csvfile:   
-        reader = csv.DictReader(csvfile) 
-
-        i = 0
-        for row in reader :
-            
-            if row['day&month']=='':
-
-                continue
+    lg.log_write(f"Une donnée a été enregisté dans le fichier stat_vmag.csv le {time[5:10]} à {time[11:16]} prochain relever prévu a {time[11:13]}:{str(int(time[14:16])+10)}") # fonction de log
 
 
-            if day == row['day&month'] :
-                
-                if hour == row['hour&min'][0:2] :
-                    
-                    hour_list.append( [row [index[0] ], row[ index[1]],row['day&month'],row['hour&min'] ])
-
-                else:
-                    hour = str( int(hour)+1 )
-
-                    if len(hour) == 1:
-                        hour = "0" + hour 
-
-                    result.append(deepcopy(hour_list))
-                    hour_list = []
 
 
-            elif (int(day[3:])+1) == int(row['day&month'][3:]) or  row['day&month'][3:] == "00":
-                result.append(deepcopy(hour_list))
-                hour_list = [row [index[0] ], row[ index[1] ]]
-                return result
-
-            
-            
-
-def average_occupied(liste):
-
-    taken_space = []
-
-    for i in range(len(liste)):
-
-        taken_space.append((int(liste[1])-int(liste[0]))/int(liste[1]))
-
-    #print(taken_space)
-    return taken_space

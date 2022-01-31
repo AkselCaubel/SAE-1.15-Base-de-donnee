@@ -1,18 +1,24 @@
 from time import sleep
-import threading as th 
+import threading as th # Bibliothèque permettant de réaliser des tâches de façons asynchrone // installées par défaut avec python3
 
+# Module personnel
 import search_park as park
 import search_veloMag as vmag
 import scraping as scp
 
 def VeloMag():
+    """ fonction permettant de faire le scrapping et stockage Vmag"""
+
     vmag.writer(scp.web_content(id[24]),"vmag","w",".xml")
     vmag.csv_file_writer_parse(scp.xml_vmag_parse("./station_file/vmag.xml"),csv_existe)
 
 def Parking():
+    """ fonction permettant de faire le scrapping et stockage Parking"""
+
     park.csv_file_writer_parse(id[0:24],csv_existe)
 
 def existe_file():
+    """fonction permettant de géré l'écriture de l'entête """
     global csv_existe
 
     sleep(60)
@@ -29,11 +35,12 @@ id = ["FR_MTP_ANTI","FR_MTP_COME","FR_MTP_CORU","FR_MTP_EURO", # Identifiant de 
 
 
 
-"""th3 = th.Thread(target=existe_file)
+th3 = th.Thread(target=existe_file) # initialisation du thread3 qui va effectuer la fonction donnée dans le target
 
 i=0
-csv_existe = True
-th3.start()
+csv_existe = False # Dans le cas ou vous voudriez faire un test, merci de bien supprimer touts les fichiers txt / csv / xml
+
+th3.start() # lancement de la tâche
 
 while i<=2016:
     th1 = th.Thread(target=VeloMag)
@@ -42,15 +49,12 @@ while i<=2016:
     th1.start()
     th2.start()
 
-    th1.join()
+    th1.join() # permet d'attendre que les tâches th1 et th2 soit fini pour lancer la suite
     th2.join()
 
     sleep(60*10)
     i+=1
     
-"""
 
-print(park.average_occupied('stat_park.csv'))
-print(park.standard_scratch_occupied('stat_park.csv',park.average_occupied('stat_park.csv')))
 
 

@@ -1,8 +1,7 @@
 import csv
-from time import sleep
-from math import sqrt
 from datetime import datetime
 
+# Module personnel 
 import calcule as clc
 import scraping as scp
 import log as lg
@@ -11,22 +10,22 @@ import log as lg
 
 
 def finder(what,area): 
-    """ Recherche et retourne l'élément a l'intérieur la balise donné (what). Il a aussi besoin de la zone de recherche(area)
-        Si jamais la balise n'est pas trouver, elle est afficher dans notre terminal"""
+    """ Recherche et retourne l'élément à l'intérieur la balise donné (what). Il a aussi besoin de la zone de recherche(area)
+    Si jamais la balise n'est pas trouvée, elle est affichée dans notre terminal"""
 
     result = "" 
     i = 0 # compteur
 
 
     while i<300: # recherche le motif 
-                 #si il ne trouve aucun nom il s'arrête automatiquement après 300 bouclages 
+                 #s'il ne trouve aucun nom il s'arrête automatiquement après 300 bouclages 
                  # ( par sécurité  [ le fichier en contient ~275])
 
         if area[i:i+len(what)]==what:       # Si la balise est trouvée
 
             i+=len(what)                    # Passe la balise
 
-            while area[i] != "<":           # tant que l'on est pas arrivé a la balise de fin
+            while area[i] != "<":           # tant que l'on n'est pas arrivé à la balise de fin
 
                 result += area[i]           
 
@@ -42,14 +41,14 @@ def sort(content):
 
     time = finder("<DateTime>",content)            # Date de la mise à jour 
     name = finder("<Name>",content)                # Nom du parking
-    free = finder("<Free>",content)                # nombre de place libre
-    total = finder("<Total>",content)              # nombre de place total du parking
+    free = finder("<Free>",content)                # nombre de places libres
+    total = finder("<Total>",content)              # nombre de places totales du parking
 
     return time, name, free, total
     
 
 def writer(content):
-    """ Met le contenu de la page dans un fichier txt au nom de la station ( si pas de fichier : il le crée )"""
+    """ Mets le contenu de la page dans un fichier txt au nom de la station ( si pas de fichier : il le crée)"""
 
 
     station_name = "./station_file/"+finder("<Name>",content) + ".txt" # trouve le nom de la station puis rajoute l'extention .txt pour le fichier 
@@ -84,16 +83,16 @@ def csv_file_writer_parse(id,csv_existe):
             writer.writeheader()    # On écrit le titre des catégories +
             csv_existe = True       # On défini dans le main le fichier comme existant 
 
-        for i in range (len(id)):   # pour chaque id ( parking ) l'on écrit dans le fichier csv pour chaque catégorie leurs entrées
+        for i in range (len(id)):
             content=import_xml(id[i])
             writer.writerow({'station_name': sort(content)[1], 'free_park_space': sort(content)[2], 'total_park_space': sort(content)[3],  'year': sort(content)[0][0:4],  'day&month': sort(content)[0][5:10],  'hour&min': sort(content)[0][11:16]})   # écrit dans le fichier csv
     time=str(datetime.now())
-    lg.log_write(f"Une donnée a été enregisté dans le fichier stat_park.csv le {time[5:10]} à {time[11:16]} prochain relever prévu a {time[11:13]}:{str(int(time[14:16])+10)}")
+    lg.log_write(f"Une donnée a été enregisté dans le fichier stat_park.csv le {time[5:10]} à {time[11:16]} prochain relevé prévu a {time[11:13]}:{str(int(time[14:16])+10)}")
 
 
 def csv_file_reader(file):
 
-    """Fonction lisant un fichier csv ( file ) et retourne sous forme de liste tous les élément du fichier"""
+    """Fonction lisant un fichier csv ( file ) et retourne sous forme de liste tous les éléments du fichier"""
 
     result = [] # initiation de la variable result ( type list )
 
@@ -104,30 +103,4 @@ def csv_file_reader(file):
             result.append([row['station_name'], row['free_park_space'], row['total_park_space'],row['year'],row['day&month'],row['hour&min']]) # ajoute sous forme de liste chaque élément du fichier de manière ordonnée
     
     return result # type(list)
-
-def average_occupied(content):
-    """ calcule et renvois la moyenne des places prise depuis le fichier donnée """
-
-    """content = csv_file_reader(data_file)"""  # récupère le contenu de de data_file ( type = list )
-    liste = []                            # initialisation du résultat de la moyenne ( type = int )
-
-    
-    for i in range (len(content)):                           # pour toute les rangées de content faire
-        
-        liste.append((int(content[i][1])-int(content[i][0]))/int(content[i][1]))     # on ajoute nombre de place occupée pour chaque relevé a la liste
-
-    return clc.average(liste)                                # renvois l'arrondis de la moyenne (type (int))
-
-
-def standard_scratch_occupied(content):
-    """ calcule l'écart type des données et le renvois """
-    
-    """content = csv_file_reader(data)  # récupère le contenu de de data_file ( type = list )"""
-    liste=[]
-
-    for i in range (len(content)):                           
-
-        liste.append(( int(content[i][1]) - int(content[i][0]))/int(content[i][1]) )     # on ajoute nombre de place occupée pour chaque relevé a la liste
-        
-    return clc.standard_scratch(liste)
 

@@ -2,17 +2,16 @@
 # WEB SCRAPING #
 ################
 
-
 import requests
 from lxml import etree
 
 def web_content(id):
 
-    """ renvois le contenu de la page recherchée a partir de l'ip du parking rechercher """
+    """ renvois le contenu de la page recherchée a partir de l'id du parking recherché """
 
     base_url = "https://data.montpellier3m.fr/sites/default/files/ressources/" 
     extention_url = ".xml" 
-    url = base_url+id+extention_url # rassemblement de l'url complete en fonction du parking recherché
+    url = base_url+id+extention_url 
     
     
     r = requests.get(url) 
